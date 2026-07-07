@@ -1,0 +1,387 @@
+menu:
+  首页: / || anzhiyu-icon-house
+  归档: /archives/ || anzhiyu-icon-box-archive
+  标签: /tags/ || anzhiyu-icon-tags
+  GitHub: https://github.com/jkunonline || anzhiyu-icon-github
+
+nav:
+  enable: false
+  travelling: false
+  clock: false
+  menu: []
+
+highlight_theme: mac light
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: 420
+code_word_wrap: false
+
+social:
+  Github: https://github.com/jkunonline || anzhiyu-icon-github
+
+author_status:
+  enable: true
+  statusImg: /img/pokeball-avatar.svg
+  skills:
+    - 记录日常维护现场
+    - 整理部署与排障手记
+    - 沉淀可复用技术日志
+
+local_search:
+  enable: false
+
+favicon: /favicon.ico
+
+avatar:
+  img: /img/pokeball-avatar.svg
+  effect: false
+
+disable_top_img: false
+index_img: "background: linear-gradient(135deg, rgba(230,53,69,.82), rgba(34,44,66,.72)), url(/img/poke-log-cover.svg) center / cover no-repeat"
+default_top_img: "background: linear-gradient(135deg, rgba(230,53,69,.82), rgba(34,44,66,.72)), url(/img/poke-log-cover.svg) center / cover no-repeat"
+
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: left
+  default_cover:
+    - /img/poke-log-cover.svg
+
+post_meta:
+  page:
+    date_type: created
+    date_format: simple
+    categories: true
+    tags: true
+    label: false
+  post:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+    unread: false
+
+wordcount:
+  enable: false
+
+index_post_content:
+  method: 3
+  length: 220
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+
+post_copyright:
+  enable: false
+
+reward:
+  enable: false
+  text:
+  QR_code: []
+
+related_post:
+  enable: true
+  limit: 4
+  date_type: created
+
+sharejs:
+  enable: false
+
+comments:
+  use:
+  text: true
+  lazyload: false
+  count: false
+  card_post_count: false
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: 维护日志与技术笔记
+  runtime:
+    enable: false
+  bdageitem:
+    enable: false
+  socialBar:
+    enable: false
+  list:
+    enable: false
+  footerBar:
+    enable: true
+    authorLink: /
+    cc:
+      enable: false
+    linkList:
+      - link: https://github.com/jkunonline/jkunonline.github.io
+        text: Source
+      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+        text: Theme
+    subTitle:
+      enable: false
+
+site_verification:
+
+theme_color:
+  enable: true
+  main: "#e63545"
+  dark_main: "#ffcc3f"
+  paginator: "#e63545"
+  text_selection: "#b61f2d"
+  link_color: "var(--anzhiyu-fontcolor)"
+  meta_color: "var(--anzhiyu-fontcolor)"
+  hr_color: "#e6354526"
+  code_foreground: "#fff"
+  code_background: "var(--anzhiyu-code-stress)"
+  toc_color: "#e63545"
+  scrollbar_color: "var(--anzhiyu-scrollbar)"
+  meta_theme_color_light: "#f7f9fe"
+  meta_theme_color_dark: "#18171d"
+
+article_double_row: true
+sidebar:
+  site_data:
+    archive: true
+    tag: true
+    category: true
+  menus_items: true
+  tags_cloud: true
+  display_mode: true
+  nav_menu_project: false
+index_site_info_top:
+index_top_img_height: 360px
+category_ui:
+tag_ui:
+footer_bg: false
+rightside-bottom: 100px
+display_mode: light
+
+beautify:
+  enable: true
+  field: post
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: "#e63545"
+
+blog_title_font:
+  font_link:
+  font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+
+hr_icon:
+  enable: true
+  icon: \f140
+  icon-top:
+
+subtitle:
+  enable: true
+  effect: true
+  startDelay: 300
+  typeSpeed: 110
+  backSpeed: 45
+  loop: true
+  source: false
+  sub:
+    - 日常维护日志
+    - 技术排障记录
+    - 部署与巡检手记
+
+preloader:
+  enable: true
+  source: 3
+  pace_css_url:
+  avatar: /img/pokeball-avatar.svg
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description: 记录维护现场、部署过程、故障排查和技术积累。
+    name_link: /
+  card_announcement:
+    enable: true
+    content: 这里是 JKUN 的维护图鉴：把每一次现场经验变成下一次的快捷路线。
+  card_weixin:
+    enable: false
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+    sort_order:
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 40
+    color: false
+    sort_order:
+    highlightTags:
+      - 维护日志
+      - 技术日志
+      - Hexo
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order:
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: false
+    sort_order:
+
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+
+runtimeshow:
+  enable: false
+
+newest_comments:
+  enable: false
+
+translate:
+  enable: false
+
+readmode: true
+
+centerConsole:
+  enable: false
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+  start:
+  end:
+
+medium_zoom: false
+fancybox: true
+
+pjax:
+  enable: true
+  exclude:
+
+aplayerInject:
+  enable: false
+  per_page: false
+
+snackbar:
+  enable: true
+  position: top-center
+  bg_light: "#e63545"
+  bg_dark: "#1f1f1f"
+
+instantpage: true
+
+lazyload:
+  enable: true
+  field: site
+  placeholder:
+  blur: true
+  progressive: true
+
+home_top:
+  enable: true
+  timemode: date
+  title: 维护图鉴
+  subTitle: 捕捉现场、记录路径、复盘结果。
+  siteText: jkunonline.github.io
+  category:
+    - name: 维护日志
+      path: /tags/维护日志/
+      shadow: var(--anzhiyu-shadow-red)
+      class: red
+      icon: anzhiyu-icon-fire
+    - name: 技术日志
+      path: /tags/技术日志/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-code
+    - name: Hexo
+      path: /tags/Hexo/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+  default_descr: 一条还没写摘要的日志。
+  swiper:
+    enable: false
+  banner:
+    tips: Daily Ops
+    title: JKUN Maintenance Log
+    image: /img/poke-log-cover.svg
+    link: /
+
+universe:
+  enable: false
+
+bubble:
+  enable: false
+
+console:
+  enable: false
+
+diytitle:
+  enable: false
+
+nav_music:
+  enable: false
+
+visitorMail:
+  enable: false
+
+ptool:
+  enable: true
+  share_mobile: false
+  share_weibo: false
+  share_copyurl: true
+  categories: true
+  mode:
+
+post_head_ai_description:
+  enable: false
+
+accesskey:
+  enable: false
+
+rightClickMenu:
+  enable: false
+
+peoplecanvas:
+  enable: false
+
+dynamicEffect:
+  postTopWave: true
+  postTopRollZoomInfo: false
+  pageCommentsRollZoom: false
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/custom.css">
+  bottom:
+
+CDN:
+  internal_provider: local
+  third_party_provider: cbd
+  version: true
+  custom_format:
+  option:

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="maintenance log cover">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1200" y1="0" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fafc"/>
+      <stop offset=".42" stop-color="#eef3fb"/>
+      <stop offset="1" stop-color="#dfe7f3"/>
+    </linearGradient>
+    <linearGradient id="red" x1="141" x2="971" y1="54" y2="583" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6b6b"/>
+      <stop offset="1" stop-color="#d62839"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#172033" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 0h1200v318H0z" fill="url(#red)"/>
+  <path d="M0 318h1200v47H0z" fill="#172033"/>
+  <g opacity=".22" stroke="#fff" stroke-width="2">
+    <path d="M80 70h1040M80 130h1040M80 190h1040M80 250h1040"/>
+    <path d="M140 28v290M260 28v290M380 28v290M500 28v290M620 28v290M740 28v290M860 28v290M980 28v290"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="600" cy="342" r="132" fill="#172033"/>
+    <circle cx="600" cy="342" r="92" fill="#fff"/>
+    <circle cx="600" cy="342" r="46" fill="#edf2f7"/>
+  </g>
+  <g fill="none" stroke="#172033" stroke-linecap="round" stroke-width="14" opacity=".72">
+    <path d="M172 471h226M172 522h164M802 471h226M864 522h164"/>
+  </g>
+  <g fill="#172033">
+    <text x="80" y="604" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">JKUN Maintenance Log</text>
+    <text x="80" y="640" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" opacity=".62">Daily ops · technical notes · field reports</text>
+  </g>
+</svg>

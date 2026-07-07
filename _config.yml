@@ -1,9 +1,9 @@
 # Site
-title: My Hexo Site
-subtitle: ""
-description: ""
+title: JKUN Maintenance Log
+subtitle: "Daily ops, technical notes, and field reports"
+description: "记录日常维护日志、故障排查、部署手记和技术积累。"
 keywords:
-author: Your Name
+author: jkunonline
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -82,7 +82,7 @@ exclude:
 ignore:
 
 # Extensions
-theme: landscape
+theme: anzhiyu
 
 # Deployment is handled by GitHub Actions in .github/workflows/pages.yml.
 deploy:

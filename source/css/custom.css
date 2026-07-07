@@ -1,0 +1,11 @@
+#console .console-card-group-reward,
+#rightMenu #menu-commenttext,
+#rightMenu #menu-music-toggle,
+#rightMenu #menu-music-back,
+#rightMenu #menu-music-forward,
+#rightMenu #menu-music-playlist,
+#rightMenu #menu-music-copyMusicName,
+#rightMenu #menu-commentBarrage,
+#rightMenu #menu-translate {
+  display: none !important;
+}
