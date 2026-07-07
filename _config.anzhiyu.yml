@@ -2,7 +2,6 @@ menu:
   首页: / || anzhiyu-icon-house
   归档: /archives/ || anzhiyu-icon-box-archive
   标签: /tags/ || anzhiyu-icon-tags
-  GitHub: https://github.com/jkunonline || anzhiyu-icon-github
 
 nav:
   enable: false
@@ -17,8 +16,7 @@ highlight_shrink: false
 highlight_height_limit: 420
 code_word_wrap: false
 
-social:
-  Github: https://github.com/jkunonline || anzhiyu-icon-github
+social: {}
 
 author_status:
   enable: true
@@ -115,15 +113,11 @@ footer:
   list:
     enable: false
   footerBar:
-    enable: true
+    enable: false
     authorLink: /
     cc:
       enable: false
-    linkList:
-      - link: https://github.com/jkunonline/jkunonline.github.io
-        text: Source
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: Theme
+    linkList: []
     subTitle:
       enable: false
 
