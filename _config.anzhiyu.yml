@@ -1,5 +1,7 @@
 menu:
   首页: / || anzhiyu-icon-house
+  技术日志: /categories/技术日志/ || anzhiyu-icon-code
+  日常维护: /categories/日常维护/ || anzhiyu-icon-screwdriver-wrench
   归档: /archives/ || anzhiyu-icon-box-archive
   标签: /tags/ || anzhiyu-icon-tags
 
@@ -36,8 +38,8 @@ avatar:
   effect: false
 
 disable_top_img: false
-index_img: "background: linear-gradient(135deg, rgba(230,53,69,.82), rgba(34,44,66,.72)), url(/img/poke-log-cover.svg) center / cover no-repeat"
-default_top_img: "background: linear-gradient(135deg, rgba(230,53,69,.82), rgba(34,44,66,.72)), url(/img/poke-log-cover.svg) center / cover no-repeat"
+index_img: "background: linear-gradient(135deg, rgba(64,158,255,.78), rgba(31,45,61,.62)), url(/img/tech-log-cover.svg) center / cover no-repeat"
+default_top_img: "background: linear-gradient(135deg, rgba(64,158,255,.78), rgba(31,45,61,.62)), url(/img/tech-log-cover.svg) center / cover no-repeat"
 
 cover:
   index_enable: true
@@ -45,7 +47,7 @@ cover:
   archives_enable: true
   position: left
   default_cover:
-    - /img/poke-log-cover.svg
+    - /img/tech-log-cover.svg
 
 post_meta:
   page:
@@ -125,16 +127,16 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#e63545"
-  dark_main: "#ffcc3f"
-  paginator: "#e63545"
-  text_selection: "#b61f2d"
+  main: "#409EFF"
+  dark_main: "#409EFF"
+  paginator: "#409EFF"
+  text_selection: "#3390ff"
   link_color: "var(--anzhiyu-fontcolor)"
   meta_color: "var(--anzhiyu-fontcolor)"
-  hr_color: "#e6354526"
+  hr_color: "#409EFF26"
   code_foreground: "#fff"
   code_background: "var(--anzhiyu-code-stress)"
-  toc_color: "#e63545"
+  toc_color: "#409EFF"
   scrollbar_color: "var(--anzhiyu-scrollbar)"
   meta_theme_color_light: "#f7f9fe"
   meta_theme_color_dark: "#18171d"
@@ -161,7 +163,7 @@ beautify:
   enable: true
   field: post
   title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: "#e63545"
+  title-prefix-icon-color: "#409EFF"
 
 blog_title_font:
   font_link:
@@ -186,7 +188,7 @@ subtitle:
     - 部署与巡检手记
 
 preloader:
-  enable: true
+  enable: false
   source: 3
   pace_css_url:
   avatar: /img/pokeball-avatar.svg
@@ -282,7 +284,7 @@ aplayerInject:
 snackbar:
   enable: true
   position: top-center
-  bg_light: "#e63545"
+  bg_light: "#409EFF"
   bg_dark: "#1f1f1f"
 
 instantpage: true
@@ -295,16 +297,16 @@ lazyload:
   progressive: true
 
 home_top:
-  enable: true
+  enable: false
   timemode: date
-  title: 维护图鉴
-  subTitle: 捕捉现场、记录路径、复盘结果。
+  title: JKUN 技术日志
+  subTitle: 维护日志、排障复盘和部署手记。
   siteText: jkunonline.github.io
   category:
     - name: 维护日志
       path: /tags/维护日志/
-      shadow: var(--anzhiyu-shadow-red)
-      class: red
+      shadow: 0 8px 18px rgba(64, 158, 255, .18)
+      class: blue
       icon: anzhiyu-icon-fire
     - name: 技术日志
       path: /tags/技术日志/
@@ -320,9 +322,9 @@ home_top:
   swiper:
     enable: false
   banner:
-    tips: Daily Ops
-    title: JKUN Maintenance Log
-    image: /img/poke-log-cover.svg
+    tips: Ops Notes
+    title: JKUN 技术日志
+    image: /img/tech-log-cover.svg
     link: /
 
 universe:
